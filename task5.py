@@ -5,5 +5,5 @@ def solution(A):
     result = len(my_set)
     return result
 
-A = [2,1,3,4,5,2,1,0]
+A = [2,1,3,4,5,2,1]
 print(solution(A))
