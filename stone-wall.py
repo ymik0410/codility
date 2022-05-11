@@ -15,7 +15,7 @@ def solution(H):
             elif H[i] < Q[-1]:
                 while Q and H[i] < Q[-1]:
                     Q.pop()
-                if H[i] not in Q:
+                if not Q or H[i] == Q[-1]:
                     count += 1
                     Q.append(H[i])
     return count
